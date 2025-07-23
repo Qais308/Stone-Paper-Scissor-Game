@@ -9,7 +9,7 @@ const reset = document.getElementById("reset");
 
 
 const genCompChoice = () => {
-   options = ["stone", "paper", "scissor"];
+   options = ["rock", "paper", "scissor"];
    const randIdx = Math.floor(Math.random() * 3);
    return options[randIdx];
 }
@@ -43,12 +43,12 @@ const playGame = (userChoice) => {
       drawGame();
    } else {
       let userWin = true;
-      if(userChoice === "stone") {
+      if(userChoice === "rock") {
          userWin = compChoice === "paper" ? false : true;
       } else if (userChoice === "paper") {
          userWin = compChoice === "scissor" ? false : true;
       } else {
-        userWin = compChoice === "stone" ? false : true;
+        userWin = compChoice === "rock" ? false : true;
       }
       showWinner(userWin, userChoice, compChoice);
    }
