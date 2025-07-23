@@ -4,7 +4,7 @@ A fun web-based *Stone Paper Scissors* (Rock Paper Scissors) game built using *H
 
 ## 🖥 Live Preview
 
-(Add your Netlify/GitHub Pages link here)
+[click here to view the live website](https://mqk-stone-paper-scissor.netlify.app)
 
 ## 🎮 Features
 
